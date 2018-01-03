@@ -2,3 +2,17 @@
     background-color: darkblue;
     padding: 50px;
 }
+
+.navbar-brand {
+    width: 100%;
+    margin-top: -80px;
+}
+
+.container {
+    
+    
+}
+
+.navbar-inverse {
+    height: 130px;
+}
