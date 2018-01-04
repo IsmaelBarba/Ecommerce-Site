@@ -1,3 +1,14 @@
 .section {
-    margin-top: 20p;
+    background: url('https://newevolutiondesigns.com/images/freebies/black-wallpaper-28.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin-top: 20px;
 }
+
+body {
+    background: black;
+}
+

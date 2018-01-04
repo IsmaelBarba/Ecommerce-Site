@@ -1,5 +1,5 @@
 .nav-section {
-    background-color: darkblue;
+    background-color: ;
     padding: 50px;
 }
 
@@ -15,4 +15,5 @@
 
 .navbar-inverse {
     height: 130px;
+    background-color: #092746;
 }
