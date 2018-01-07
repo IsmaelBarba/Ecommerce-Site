@@ -1,5 +1,6 @@
 .section {
-    background: url('https://newevolutiondesigns.com/images/freebies/black-wallpaper-28.jpg') no-repeat center center fixed;
+    background: url('http://www.balaganist.com/wp-content/gallery/Textures_wallpapers%20Purple.jpg') no-repeat center center fixed;
+    /*background: url('https://newevolutiondesigns.com/images/freebies/black-wallpaper-28.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,6 +10,127 @@
 }
 
 body {
-    background: black;
+    background-color: #071f36;
+    height: 1px;
 }
 
+.thumbnail {
+    /*border-color: purple;
+    border-width: 5px;
+    background-color: rgb(235, 162, 235);*/
+    border-color: rgb(16, 18, 128);
+    border-width: 5px;
+    background-color: rgb(119, 180, 245);
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: rgb(12, 12, 56);
+    border: 1px solid #ddd;
+}
+
+===========================================================
+
+
+body {
+    padding-top: 50px;
+}
+
+#myCarousel .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    text-shadow: none;
+}
+
+#myCarousel .list-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#myCarousel .list-group-item {
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#myCarousel .list-group .active {
+    background-color: #eee;
+}
+
+@media (min-width: 992px) {
+    #myCarousel {
+        padding-right: 33.3333%;
+    }
+    #myCarousel .carousel-controls {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .carousel-caption p,
+    #myCarousel .list-group {
+        display: none;
+    }
+}
+
+
+
+#myCarousel {
+    background-color: black;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.list-group {
+   
+    padding: -20px;
+    margin-top: 30px;
+    margin-right: -100px;
+    
+}
+
+.list-group-item {
+    margin-top: 4px;
+    margin-left: 120px;
+    height: 135px;
+    width: 370px;
+}
+
+.imag-container {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+#navbar-gap {
+    background-color: 0;
+    height: 800px;
+}
+
+.carousel-inner {
+    padding: 40px;
+    background: green;
+    height: 700px;
+}
+
+.carousel-caption {
+    padding: 5px;
+    width: 100px;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+}
