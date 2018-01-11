@@ -74,3 +74,19 @@ app.listen(secret.port, function(err) {
   if (err) throw err;
   console.log("Server is Running on port " + secret.port);
 });
+
+
+// test
+app.post('/create-user', function(req, res, next) {
+  var user = new User();
+
+  user.profile.name = req.body.name;
+  user.password = req.body.password;
+  user.email = req.body.email;
+
+  user.save(function(err){
+    if(err) next(err);
+
+    res.json('Succesfully Created A New User');
+  });
+});
