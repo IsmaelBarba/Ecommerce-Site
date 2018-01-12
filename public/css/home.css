@@ -47,6 +47,11 @@ body {
     min-width: 100%;
 }
 
+.fullscreen-video-wrap iframe {
+    min-height: 100%;
+    min-width: 100%;
+}
+
 .header-overlay {
     height: 100vh;
     position: absolute;
@@ -396,4 +401,61 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+------------------------------------------------
+
+.hatter1 {
+    margin-left: 
+    
+
+}
+
+.thehatter {
+    margin-left: -300px;
+    margin-bottom: -35px;
+
+}
+
+.abouthat {
+    background-color: rgb(113, 165, 113);
+}
+
+.head {
+    margin: -80px;
+}
+
+.cat {
+    margin-left: 900px;
+    margin-top: -800px;
+    margin-bottom: 0px;
+    
+}
+
+.card {
+    
+    height: 300px;
+    width: 350px;
+}
+   
+.cat-container {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.scrollspy {
+    background-color: black;
+}
+
+.gr__localhost {
+    width: 100%;
+    height: 100%;
+}
+
+#work {
+    background-color: black;
+}
+
+#parallax {
+    background-color:
 }
